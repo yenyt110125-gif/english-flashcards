@@ -7,7 +7,7 @@
  *   - Cache-first for static shell assets.
  * Bump CACHE version when you change shell files to force an update.
  */
-var CACHE = 'flashcards-v3';
+var CACHE = 'flashcards-v4';
 var SHELL = [
   './',
   './index.html',
@@ -43,27 +43,20 @@ self.addEventListener('fetch', function (e) {
   var url = new URL(req.url);
   if (url.origin !== self.location.origin) return;
 
-  var isDeck = url.pathname.indexOf('/decks/') !== -1;
-
-  if (isDeck) {
-    // network-first: keep decks fresh, fall back to cache offline
-    e.respondWith(
-      fetch(req).then(function (res) {
-        var copy = res.clone();
-        caches.open(CACHE).then(function (c) { c.put(req, copy); });
-        return res;
-      }).catch(function () { return caches.match(req); })
-    );
-  } else {
-    // cache-first for shell assets
-    e.respondWith(
-      caches.match(req).then(function (hit) {
-        return hit || fetch(req).then(function (res) {
-          var copy = res.clone();
-          caches.open(CACHE).then(function (c) { c.put(req, copy); });
-          return res;
-        });
-      })
-    );
-  }
+  // Network-first for everything (code AND data): when online, always get the
+  // freshest version so app code and deck data never fall out of sync. Fall
+  // back to cache when offline; navigations fall back to the cached app shell.
+  e.respondWith(
+    fetch(req).then(function (res) {
+      var copy = res.clone();
+      caches.open(CACHE).then(function (c) { c.put(req, copy); });
+      return res;
+    }).catch(function () {
+      return caches.match(req).then(function (hit) {
+        if (hit) return hit;
+        if (req.mode === 'navigate') return caches.match('./index.html');
+        return Response.error();
+      });
+    })
+  );
 });

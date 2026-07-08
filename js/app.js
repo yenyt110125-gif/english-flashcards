@@ -407,8 +407,17 @@
       console.error(e);
     });
 
-    // register service worker for offline / installable app
+    // register service worker for offline / installable app, and auto-reload
+    // once a newer version takes control (so code + data never fall out of sync)
     if ('serviceWorker' in navigator) {
+      var hadController = !!navigator.serviceWorker.controller;
+      var refreshing = false;
+      navigator.serviceWorker.addEventListener('controllerchange', function () {
+        if (refreshing) return;
+        if (!hadController) { hadController = true; return; } // first install: don't reload
+        refreshing = true;
+        window.location.reload();
+      });
       window.addEventListener('load', function () {
         navigator.serviceWorker.register('./sw.js').catch(function () {});
       });
