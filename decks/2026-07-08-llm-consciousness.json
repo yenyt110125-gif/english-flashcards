@@ -1,0 +1,200 @@
+{
+  "id": "2026-07-08-llm-consciousness",
+  "title": "Can a Chatbot Be Conscious?",
+  "source": "The Atlantic — essay on Claude's constitution and AI consciousness",
+  "createdAt": "2026-07-08",
+  "cards": [
+    {
+      "word": "anthropomorphism",
+      "ipa": "/ˌænθrəpəˈmɔːfɪzəm/",
+      "pos": "noun",
+      "definition": "the act of giving human traits, emotions, or intentions to non-human things",
+      "example": "Anthropic really excels at anthropomorphism, describing its AI as if it had feelings.",
+      "synonyms": ["personification", "humanization"]
+    },
+    {
+      "word": "flagship",
+      "ipa": "/ˈflæɡʃɪp/",
+      "pos": "adjective",
+      "definition": "the best, largest, or most important product or asset of an organization",
+      "example": "Claude is the company's flagship product.",
+      "synonyms": ["leading", "premier", "foremost"]
+    },
+    {
+      "word": "coherent",
+      "ipa": "/kəʊˈhɪərənt/",
+      "pos": "adjective",
+      "definition": "logical, well-organized, and easy to understand",
+      "example": "The model generates a coherent dialogue between the two historical figures.",
+      "synonyms": ["logical", "consistent", "clear"]
+    },
+    {
+      "word": "speculative",
+      "ipa": "/ˈspekjələtɪv/",
+      "pos": "adjective",
+      "definition": "based on guesswork or theory rather than firm knowledge",
+      "example": "They are just characters in a piece of speculative fiction.",
+      "synonyms": ["hypothetical", "conjectural", "theoretical"]
+    },
+    {
+      "word": "engrossing",
+      "ipa": "/ɪnˈɡrəʊsɪŋ/",
+      "pos": "adjective",
+      "definition": "so interesting that it takes up all of your attention",
+      "example": "People forget they are role-playing because the interaction is so engrossing.",
+      "synonyms": ["absorbing", "captivating", "gripping"]
+    },
+    {
+      "word": "simulacrum",
+      "ipa": "/ˌsɪmjəˈleɪkrəm/",
+      "pos": "noun",
+      "definition": "an image or imitation of something, often an unsatisfactory one",
+      "example": "It is easy to generate a plausible simulacrum of a conversation between conscious beings.",
+      "synonyms": ["imitation", "semblance", "replica"]
+    },
+    {
+      "word": "corrigible",
+      "ipa": "/ˈkɒrɪdʒəbl/",
+      "pos": "adjective",
+      "definition": "able to be corrected, controlled, or reformed",
+      "example": "A program is corrigible if it can be shut down when needed.",
+      "synonyms": ["controllable", "manageable", "correctable"]
+    },
+    {
+      "word": "abdicate",
+      "ipa": "/ˈæbdɪkeɪt/",
+      "pos": "verb",
+      "definition": "to give up or fail to carry out a duty or responsibility",
+      "example": "The product offers customers a way to abdicate their responsibilities.",
+      "synonyms": ["renounce", "relinquish", "forgo"]
+    },
+    {
+      "word": "atrophy",
+      "ipa": "/ˈætrəfi/",
+      "pos": "noun",
+      "definition": "a gradual decline or wasting away, often from lack of use",
+      "example": "Off-loading ethical decisions will result in an atrophy of moral reasoning.",
+      "synonyms": ["decline", "deterioration", "wasting"]
+    },
+    {
+      "word": "delegate",
+      "ipa": "/ˈdelɪɡeɪt/",
+      "pos": "verb",
+      "definition": "to hand a task or responsibility over to someone or something else",
+      "example": "Whenever a person delegates a decision to an LLM, they off-load accountability.",
+      "synonyms": ["assign", "entrust", "hand over"]
+    },
+    {
+      "word": "probabilistic",
+      "ipa": "/ˌprɒbəbɪˈlɪstɪk/",
+      "pos": "adjective",
+      "definition": "based on or involving probability rather than certainty",
+      "example": "Their probabilistic nature means they will never be perfectly reliable.",
+      "synonyms": ["stochastic", "statistical"]
+    },
+    {
+      "word": "physiological",
+      "ipa": "/ˌfɪziəˈlɒdʒɪkl/",
+      "pos": "adjective",
+      "definition": "relating to the way a living body and its parts function",
+      "example": "Those emotions entail a physiological response, such as stress hormones flooding the body.",
+      "synonyms": ["bodily", "biological"]
+    },
+    {
+      "word": "liable",
+      "ipa": "/ˈlaɪəbl/",
+      "pos": "adjective",
+      "definition": "legally responsible for something",
+      "example": "There is no way to hold a software agent legally liable for its actions.",
+      "synonyms": ["responsible", "accountable", "answerable"]
+    },
+    {
+      "word": "scrutiny",
+      "ipa": "/ˈskruːtəni/",
+      "pos": "noun",
+      "definition": "careful and critical examination or inspection",
+      "example": "Its abilities would have to withstand all the scrutiny that researchers face.",
+      "synonyms": ["examination", "inspection", "analysis"]
+    },
+    {
+      "word": "entice",
+      "ipa": "/ɪnˈtaɪs/",
+      "pos": "verb",
+      "definition": "to attract or tempt someone by offering something appealing",
+      "example": "Slot machines entice players to try again by hinting they almost won.",
+      "synonyms": ["tempt", "lure", "allure"]
+    },
+    {
+      "word": "upheaval",
+      "ipa": "/ʌpˈhiːvl/",
+      "pos": "noun",
+      "definition": "a large or violent change, disruption, or disturbance",
+      "example": "The abolition of slavery involved enormous societal upheaval.",
+      "synonyms": ["disruption", "turmoil", "disturbance"]
+    },
+    {
+      "word": "delineate",
+      "ipa": "/dɪˈlɪnieɪt/",
+      "pos": "verb",
+      "definition": "to describe or define something precisely",
+      "example": "The constitution helps delineate the helpful-chatbot character.",
+      "synonyms": ["define", "outline", "describe"]
+    },
+    {
+      "word": "contention",
+      "ipa": "/kənˈtenʃn/",
+      "pos": "noun",
+      "definition": "an argument or claim put forward in a debate",
+      "example": "This brings us back to my earlier contention that LLMs lack experience.",
+      "synonyms": ["assertion", "claim", "argument"]
+    },
+    {
+      "word": "posit",
+      "ipa": "/ˈpɒzɪt/",
+      "pos": "verb",
+      "definition": "to put forward an idea or assumption as a basis for argument",
+      "example": "He was positing that grandmaster-level chess would require subjective experience.",
+      "synonyms": ["postulate", "propose", "assume"]
+    },
+    {
+      "word": "eloquent",
+      "ipa": "/ˈeləkwənt/",
+      "pos": "adjective",
+      "definition": "expressing ideas clearly, fluently, and persuasively",
+      "example": "The conversation might contain sentences that eloquently convey sadness.",
+      "synonyms": ["articulate", "expressive", "persuasive"]
+    },
+    {
+      "word": "intrinsic",
+      "ipa": "/ɪnˈtrɪnzɪk/",
+      "pos": "adjective",
+      "definition": "belonging naturally to something; essential and inherent",
+      "example": "It is not any intrinsic property of neural networks that makes people think LLMs are conscious.",
+      "synonyms": ["inherent", "innate", "essential"]
+    },
+    {
+      "word": "cognizant",
+      "ipa": "/ˈkɒɡnɪzənt/",
+      "pos": "adjective",
+      "definition": "aware of or having knowledge of something",
+      "example": "She is likelier to be cognizant of her own responsibility.",
+      "synonyms": ["aware", "conscious", "mindful"]
+    },
+    {
+      "word": "conscientious",
+      "ipa": "/ˌkɒnʃiˈenʃəs/",
+      "pos": "adjective",
+      "definition": "guided by conscience; careful to do what is right and thorough",
+      "example": "An LLM can describe actions that conscientious characters would take.",
+      "synonyms": ["principled", "scrupulous", "diligent"]
+    },
+    {
+      "word": "reparations",
+      "ipa": "/ˌrepəˈreɪʃnz/",
+      "pos": "noun",
+      "definition": "compensation given for a wrong or injury that has been done",
+      "example": "If Claude were conscious, the company would owe it something closer to reparations.",
+      "synonyms": ["compensation", "restitution", "redress"]
+    }
+  ]
+}

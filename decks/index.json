@@ -6,6 +6,13 @@
       "file": "2026-07-08-climate-basics.json",
       "count": 14,
       "createdAt": "2026-07-08"
+    },
+    {
+      "id": "2026-07-08-llm-consciousness",
+      "title": "Can a Chatbot Be Conscious?",
+      "file": "2026-07-08-llm-consciousness.json",
+      "count": 24,
+      "createdAt": "2026-07-08"
     }
   ]
 }
