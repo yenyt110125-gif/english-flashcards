@@ -1,0 +1,20 @@
+{
+  "name": "單字卡 · English Flashcards",
+  "short_name": "單字卡",
+  "description": "把文章變成單字卡，左右滑動複習，認得的自動剃除。",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "lang": "zh-Hant",
+  "icons": [
+    {
+      "src": "./icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
