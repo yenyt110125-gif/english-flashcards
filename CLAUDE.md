@@ -29,7 +29,11 @@
      "ipa": "/rɪˈzɪliənt/",
      "pos": "adjective",
      "definition": "able to recover quickly from difficulty; tough and flexible",
-     "example": "Coral reefs are surprisingly resilient and can regrow after damage.",
+     "sourceSentence": "Coral reefs are surprisingly resilient and can regrow after damage.",
+     "examples": [
+       "After the layoffs, the team proved remarkably resilient and bounced back within months.",
+       "Children are often more resilient than adults give them credit for."
+     ],
      "synonyms": ["tough", "hardy", "adaptable"]
    }
    ```
@@ -39,8 +43,11 @@
    - `ipa`：IPA 音標，前後加斜線。
    - `pos`：詞性（noun / verb / adjective / adverb…）。
    - `definition`：簡明英英解釋，用學習者能懂的字。
-   - `example`：一句自然的英文例句（優先呼應原文情境）。
+   - `sourceSentence`：**文章原文裡實際包含這個字的那一句，逐字照抄（verbatim）**。
+     若該字在原文以變化形出現（如 preying／glossed over），照抄原文那句即可。
+   - `examples`：**額外自己寫的 2 個例句**（自然、貼近該字用法，不要和原文句重複）。陣列，長度 2。
    - `synonyms`：2–4 個同義字陣列（可留空陣列 `[]`）。
+   - （舊版單一 `example` 欄位仍可讀，但新卡請一律用 `sourceSentence` + `examples`。）
 
 3. 建立 deck 檔 `decks/<slug>.json`（`slug` 建議 `YYYY-MM-DD-主題`）：
    ```json

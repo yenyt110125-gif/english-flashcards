@@ -135,8 +135,22 @@
     var el = document.createElement('div');
     el.className = 'card';
 
-    var syn = (card.synonyms && card.synonyms.length)
-      ? '<div class="synonyms">' + card.synonyms.map(esc).join(' · ') + '</div>' : '';
+    // back: definition, original sentence from the article, then example sentences
+    var back = ['<div class="definition">' + esc(card.definition) + '</div>'];
+    if (card.sourceSentence) {
+      back.push('<div class="block"><div class="section-label">原文</div>' +
+        '<div class="sentence orig">' + highlight(card.sourceSentence, card.word) + '</div></div>');
+    }
+    var exs = card.examples || (card.example ? [card.example] : []);
+    if (exs.length) {
+      back.push('<div class="block"><div class="section-label">例句</div>' +
+        '<div class="examples">' +
+        exs.map(function (s) { return '<div class="sentence example">' + highlight(s, card.word) + '</div>'; }).join('') +
+        '</div></div>');
+    }
+    if (card.synonyms && card.synonyms.length) {
+      back.push('<div class="synonyms">≈ ' + card.synonyms.map(esc).join(' · ') + '</div>');
+    }
 
     el.innerHTML =
       '<div class="card-inner">' +
@@ -149,11 +163,7 @@
           '</div>' +
           '<div class="tap-hint">點一下看解釋</div>' +
         '</div>' +
-        '<div class="card-face card-back">' +
-          '<div class="definition">' + esc(card.definition) + '</div>' +
-          (card.example ? '<div class="example">' + esc(card.example) + '</div>' : '') +
-          syn +
-        '</div>' +
+        '<div class="card-face card-back">' + back.join('') + '</div>' +
       '</div>' +
       '<div class="badge badge-know">認得 ✓</div>' +
       '<div class="badge badge-unknown">陌生 ✕</div>';
@@ -318,6 +328,20 @@
     return String(s == null ? '' : s)
       .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
       .replace(/"/g, '&quot;');
+  }
+
+  // Escape a sentence and bold the target word (tolerant of inflections/phrases).
+  function highlight(text, word) {
+    var safe = esc(text);
+    if (!word) return safe;
+    var tokens = String(word).trim().split(/\s+/).map(function (t) {
+      var stem = (t.length > 4 && /e$/i.test(t)) ? t.slice(0, -1) : t; // drop trailing 'e' to catch -ing forms
+      return stem.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '\\w*';
+    });
+    try {
+      var re = new RegExp('(\\b' + tokens.join('\\s+') + ')', 'ig');
+      return safe.replace(re, '<strong>$1</strong>');
+    } catch (e) { return safe; }
   }
 
   // ---- wire up ------------------------------------------------------------

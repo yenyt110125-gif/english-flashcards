@@ -147,7 +147,40 @@ html, body {
   padding: 24px;
   gap: 10px;
 }
-.card-back { transform: rotateY(180deg); justify-content: center; gap: 18px; }
+.card-back {
+  transform: rotateY(180deg);
+  justify-content: flex-start;
+  gap: 14px;
+  overflow-y: auto;
+  padding: 26px 22px;
+  text-align: left;
+  -webkit-overflow-scrolling: touch;
+}
+.card-back .block { width: 100%; }
+.section-label {
+  font-size: 11px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #94a3b8;
+  margin-bottom: 6px;
+}
+.card-back .definition { text-align: center; width: 100%; }
+.sentence { line-height: 1.55; }
+.sentence.orig {
+  font-size: clamp(15px, 4.2vw, 18px);
+  color: #334155;
+  border-left: 3px solid var(--accent);
+  padding-left: 12px;
+}
+.examples { display: flex; flex-direction: column; gap: 10px; }
+.sentence.example {
+  font-size: clamp(14px, 4vw, 17px);
+  color: #475569;
+  border-left: 3px solid #cbd5e1;
+  padding-left: 12px;
+}
+.card-back strong { color: #0f172a; font-weight: 800; background: #fef08a; border-radius: 3px; padding: 0 2px; }
+.card-back .synonyms { align-self: center; }
 
 .pos {
   color: #64748b;
@@ -180,15 +213,6 @@ html, body {
 }
 
 .definition { font-size: clamp(18px, 5vw, 22px); line-height: 1.5; font-weight: 600; }
-.example {
-  font-size: clamp(15px, 4.2vw, 18px);
-  line-height: 1.55;
-  color: #334155;
-  font-style: italic;
-  border-left: 3px solid var(--accent);
-  padding-left: 12px;
-  text-align: left;
-}
 .synonyms { color: #64748b; font-size: 15px; }
 
 /* swipe hint badges */
