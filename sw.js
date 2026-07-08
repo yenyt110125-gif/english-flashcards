@@ -7,7 +7,7 @@
  *   - Cache-first for static shell assets.
  * Bump CACHE version when you change shell files to force an update.
  */
-var CACHE = 'flashcards-v1';
+var CACHE = 'flashcards-v2';
 var SHELL = [
   './',
   './index.html',

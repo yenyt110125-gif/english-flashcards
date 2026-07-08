@@ -1,5 +1,9 @@
 /* style.css — mobile-first, dark-friendly flashcard UI. No external fonts. */
 
+/* Ensure the HTML `hidden` attribute always wins over layout display rules
+   (e.g. .panel { display: flex } would otherwise keep hidden panels visible). */
+[hidden] { display: none !important; }
+
 :root {
   --bg: #0f172a;
   --bg-soft: #1e293b;
