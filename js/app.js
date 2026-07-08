@@ -18,8 +18,7 @@
 
   // ---- DOM refs -----------------------------------------------------------
   var $ = function (id) { return document.getElementById(id); };
-  var cardArea, emptyState, statRemaining, statMastered, deckSelect,
-      btnKnow, btnUnknown, btnFlip, settingsPanel;
+  var cardArea, emptyState, statRemaining, statMastered, deckSelect, settingsPanel;
 
   // ---- data loading -------------------------------------------------------
   function loadJSON(url) {
@@ -142,12 +141,12 @@
     // back: definition, original sentence from the article, then example sentences
     var back = ['<div class="definition">' + esc(card.definition) + '</div>'];
     if (card.sourceSentence) {
-      back.push('<div class="block"><div class="section-label">原文</div>' +
+      back.push('<div class="block"><div class="section-label">From the article</div>' +
         '<div class="sentence orig">' + highlight(card.sourceSentence, card.word) + '</div></div>');
     }
     var exs = card.examples || (card.example ? [card.example] : []);
     if (exs.length) {
-      back.push('<div class="block"><div class="section-label">例句</div>' +
+      back.push('<div class="block"><div class="section-label">Examples</div>' +
         '<div class="examples">' +
         exs.map(function (s) { return '<div class="sentence example">' + highlight(s, card.word) + '</div>'; }).join('') +
         '</div></div>');
@@ -163,14 +162,14 @@
           '<div class="word">' + esc(card.word) + '</div>' +
           '<div class="ipa-row">' +
             (card.ipa ? '<span class="ipa">' + esc(card.ipa) + '</span>' : '') +
-            '<button class="speak-btn" type="button" aria-label="發音">🔊</button>' +
+            '<button class="speak-btn" type="button" aria-label="Pronounce">🔊</button>' +
           '</div>' +
-          '<div class="tap-hint">點一下看解釋</div>' +
+          '<div class="tap-hint">Tap to flip &nbsp;·&nbsp; swipe ← unfamiliar &nbsp;·&nbsp; known →</div>' +
         '</div>' +
         '<div class="card-face card-back">' + back.join('') + '</div>' +
       '</div>' +
-      '<div class="badge badge-know">認得 ✓</div>' +
-      '<div class="badge badge-unknown">陌生 ✕</div>';
+      '<div class="badge badge-know">KNOWN ✓</div>' +
+      '<div class="badge badge-unknown">UNFAMILIAR ✕</div>';
 
     // speak button: don't let it start a drag or flip
     var sb = el.querySelector('.speak-btn');
@@ -243,12 +242,12 @@
     emptyState.hidden = false;
     emptyState.innerHTML = anyLeft
       ? '<div class="empty-emoji">🎉</div>' +
-        '<h2>今日複習完成！</h2>' +
-        '<p>沒有到期的卡片了。想繼續的話可以提前複習還沒精熟的字。</p>' +
-        '<button id="restudy" class="btn btn-primary" type="button">提前複習</button>'
+        '<h2>All done for now</h2>' +
+        '<p>No cards are due. You can study ahead with words you haven\'t mastered yet.</p>' +
+        '<button id="restudy" class="btn btn-primary" type="button">Study ahead</button>'
       : '<div class="empty-emoji">🏆</div>' +
-        '<h2>全部精熟！</h2>' +
-        '<p>這個範圍的字你都學會了。餵一篇新文章給 Claude 來增加更多字卡吧。</p>';
+        '<h2>All mastered!</h2>' +
+        '<p>You\'ve learned every word here. Feed a new article to Claude to add more cards.</p>';
     var rb = $('restudy');
     if (rb) rb.addEventListener('click', function () {
       buildQueue(true);
@@ -256,9 +255,7 @@
     });
   }
 
-  function setControlsEnabled(on) {
-    [btnKnow, btnUnknown, btnFlip].forEach(function (b) { if (b) b.disabled = !on; });
-  }
+  function setControlsEnabled(on) { /* no on-screen controls; kept as a no-op */ }
 
   // ---- settings: export / import / mastered -------------------------------
   function download(filename, text) {
@@ -280,11 +277,11 @@
     reader.onload = function () {
       try {
         var n = SRS.importJSON(String(reader.result));
-        alert('已匯入 ' + n + ' 筆進度。');
+        alert('Imported ' + n + ' entries.');
         buildQueue(false);
         render();
       } catch (e) {
-        alert('匯入失敗：' + e.message);
+        alert('Import failed: ' + e.message);
       }
     };
     reader.readAsText(file);
@@ -295,12 +292,12 @@
     if (!box) return;
     var mastered = state.cards.filter(function (c) { return SRS.isMastered(c.word); });
     if (!mastered.length) {
-      box.innerHTML = '<p class="muted">還沒有精熟的字。</p>';
+      box.innerHTML = '<p class="muted">No mastered words yet.</p>';
       return;
     }
     box.innerHTML = mastered.map(function (c) {
       return '<div class="mastered-row"><span>' + esc(c.word) + '</span>' +
-        '<button class="link-btn" data-word="' + esc(c.word) + '">重設</button></div>';
+        '<button class="link-btn" data-word="' + esc(c.word) + '">Reset</button></div>';
     }).join('');
     Array.prototype.forEach.call(box.querySelectorAll('.link-btn'), function (b) {
       b.addEventListener('click', function () {
@@ -319,7 +316,7 @@
 
   // ---- deck selector ------------------------------------------------------
   function populateDeckSelect() {
-    var opts = ['<option value="all">全部文章</option>'];
+    var opts = ['<option value="all">All articles</option>'];
     state.decks.forEach(function (d) {
       opts.push('<option value="' + esc(d.id) + '">' + esc(d.title || d.id) + '</option>');
     });
@@ -355,17 +352,7 @@
     statRemaining = $('stat-remaining');
     statMastered = $('stat-mastered');
     deckSelect = $('deck-select');
-    btnKnow = $('btn-know');
-    btnUnknown = $('btn-unknown');
-    btnFlip = $('btn-flip');
     settingsPanel = $('settings-panel');
-
-    btnKnow.addEventListener('click', function () { flingAndDecide('know'); });
-    btnUnknown.addEventListener('click', function () { flingAndDecide('unknown'); });
-    btnFlip.addEventListener('click', function () {
-      var el = currentCardEl();
-      if (el) el.classList.toggle('flipped');
-    });
 
     deckSelect.addEventListener('change', function () {
       state.filter = deckSelect.value;
@@ -381,7 +368,7 @@
       e.target.value = '';
     });
     $('btn-clear').addEventListener('click', function () {
-      if (confirm('確定要清除這台裝置上的所有學習進度嗎？此動作無法復原（建議先匯出備份）。')) {
+      if (confirm('Clear all learning progress on this device? This cannot be undone (export a backup first).')) {
         SRS.clearAll();
         buildQueue(false);
         renderMasteredList();
@@ -406,8 +393,8 @@
       buildQueue(false);
       render();
     }).catch(function (e) {
-      cardArea.innerHTML = '<div class="load-error">載入失敗：' + esc(e.message) +
-        '<br><small>請透過 http 伺服器開啟（不能直接用 file:// 開）。</small></div>';
+      cardArea.innerHTML = '<div class="load-error">Failed to load: ' + esc(e.message) +
+        '<br><small>Open via an http server (not directly with file://).</small></div>';
       console.error(e);
     });
 

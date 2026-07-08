@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-Hant">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1.0, user-scalable=no">
@@ -10,65 +10,54 @@
   <link rel="icon" href="./icons/icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="./icons/icon.svg">
   <link rel="stylesheet" href="./css/style.css">
-  <title>單字卡 · English Flashcards</title>
+  <title>Flashcards</title>
 </head>
 <body>
   <div class="app">
     <header class="topbar">
-      <div class="brand">單字卡</div>
-      <select id="deck-select" class="deck-select" aria-label="選擇文章"></select>
-      <button id="btn-settings" class="icon-btn" type="button" aria-label="設定">⚙️</button>
+      <div class="brand">Flashcards</div>
+      <select id="deck-select" class="deck-select" aria-label="Choose article"></select>
+      <button id="btn-settings" class="icon-btn" type="button" aria-label="Settings">⚙</button>
     </header>
 
     <div class="stats">
-      <div class="stat"><span class="stat-label">待複習</span><span id="stat-remaining" class="stat-value">0</span></div>
-      <div class="stat"><span class="stat-label">已精熟</span><span id="stat-mastered" class="stat-value">0</span></div>
+      <div class="stat"><span class="stat-label">Due</span><span id="stat-remaining" class="stat-value">0</span></div>
+      <div class="stat"><span class="stat-label">Mastered</span><span id="stat-mastered" class="stat-value">0</span></div>
     </div>
 
     <main class="stage">
       <div id="card-area" class="card-area"></div>
       <section id="empty-state" class="empty-state" hidden></section>
     </main>
-
-    <footer class="controls">
-      <button id="btn-unknown" class="btn btn-unknown" type="button">陌生 ✕</button>
-      <button id="btn-flip" class="btn btn-flip" type="button">翻面</button>
-      <button id="btn-know" class="btn btn-know" type="button">認得 ✓</button>
-    </footer>
-    <p class="hint-line">左滑 = 陌生　·　右滑 = 認得　·　點卡片翻面</p>
   </div>
 
   <!-- settings / backup panel -->
   <div id="settings-panel" class="panel" hidden>
     <div class="panel-sheet">
       <div class="panel-head">
-        <h2>設定</h2>
-        <button id="btn-close-settings" class="icon-btn" type="button" aria-label="關閉">✕</button>
+        <h2>Settings</h2>
+        <button id="btn-close-settings" class="icon-btn" type="button" aria-label="Close">✕</button>
       </div>
 
       <section class="panel-section">
-        <h3>進度備份</h3>
-        <p class="muted">學習進度只存在這台裝置。換手機或清除瀏覽器前，請先匯出備份。</p>
+        <h3>Backup progress</h3>
+        <p class="muted">Your progress is stored only on this device. Export a backup before switching phones or clearing your browser.</p>
         <div class="panel-actions">
-          <button id="btn-export" class="btn btn-secondary" type="button">匯出進度</button>
-          <label class="btn btn-secondary" for="import-file">匯入進度</label>
+          <button id="btn-export" class="btn btn-secondary" type="button">Export</button>
+          <label class="btn btn-secondary" for="import-file">Import</label>
           <input id="import-file" type="file" accept="application/json,.json" hidden>
         </div>
       </section>
 
       <section class="panel-section">
-        <h3>已精熟的字</h3>
+        <h3>Mastered words</h3>
         <div id="mastered-list" class="mastered-list"></div>
       </section>
 
       <section class="panel-section">
-        <h3>危險區</h3>
-        <button id="btn-clear" class="btn btn-danger" type="button">清除所有進度</button>
+        <h3>Danger zone</h3>
+        <button id="btn-clear" class="btn btn-danger" type="button">Clear all progress</button>
       </section>
-
-      <p class="about muted">
-        餵一篇文章給 Claude 就能自動產生新字卡並更新此網頁。詳見專案的 CLAUDE.md。
-      </p>
     </div>
   </div>
 
