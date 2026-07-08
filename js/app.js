@@ -66,6 +66,8 @@
             ipa: raw.ipa || existing.ipa,
             pos: raw.pos || existing.pos,
             definition: raw.definition || existing.definition,
+            sourceSentence: raw.sourceSentence || existing.sourceSentence,
+            examples: raw.examples || existing.examples,
             example: raw.example || existing.example,
             synonyms: raw.synonyms || existing.synonyms
           });
@@ -77,6 +79,8 @@
             ipa: raw.ipa || '',
             pos: raw.pos || '',
             definition: raw.definition || '',
+            sourceSentence: raw.sourceSentence || '',
+            examples: raw.examples || null,
             example: raw.example || '',
             synonyms: raw.synonyms || [],
             deckIds: [deck.id]
