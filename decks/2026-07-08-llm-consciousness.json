@@ -195,6 +195,182 @@
       "definition": "compensation given for a wrong or injury that has been done",
       "example": "If Claude were conscious, the company would owe it something closer to reparations.",
       "synonyms": ["compensation", "restitution", "redress"]
+    },
+    {
+      "word": "consciousness",
+      "ipa": "/ˈkɒnʃəsnəs/",
+      "pos": "noun",
+      "definition": "the state of being aware of and able to think about one's own existence and experience",
+      "example": "We shouldn't confuse fluency at generating text with consciousness.",
+      "synonyms": ["awareness", "sentience", "self-awareness"]
+    },
+    {
+      "word": "subjective",
+      "ipa": "/səbˈdʒektɪv/",
+      "pos": "adjective",
+      "definition": "based on personal feelings or experience rather than outside facts",
+      "example": "Moral reasoning is necessarily subjective, grounded in a lifetime of experience.",
+      "synonyms": ["personal", "individual", "biased"]
+    },
+    {
+      "word": "sentient",
+      "ipa": "/ˈsentiənt/",
+      "pos": "adjective",
+      "definition": "able to perceive or feel things; conscious",
+      "example": "Young children are moral patients because they are sentient beings who can suffer.",
+      "synonyms": ["conscious", "feeling", "aware"]
+    },
+    {
+      "word": "moral agency",
+      "ipa": "/ˈmɒrəl ˈeɪdʒənsi/",
+      "pos": "noun phrase",
+      "definition": "the capacity to tell right from wrong and be held responsible for one's actions",
+      "example": "A chatbot has no moral agency, so it can deserve neither credit nor blame.",
+      "synonyms": ["moral responsibility", "accountability"]
+    },
+    {
+      "word": "hype",
+      "ipa": "/haɪp/",
+      "pos": "noun",
+      "definition": "extravagant or intense promotion meant to excite public interest",
+      "example": "Perhaps the talk of conscious AI is just another form of hype.",
+      "synonyms": ["publicity", "promotion", "buzz"]
+    },
+    {
+      "word": "deepfake",
+      "ipa": "/ˈdiːpfeɪk/",
+      "pos": "noun",
+      "definition": "synthetic media in which a person's likeness or voice is convincingly fabricated",
+      "example": "When it comes to consciousness, we need to regard text as a deepfake medium.",
+      "synonyms": ["fabrication", "forgery"]
+    },
+    {
+      "word": "role-play",
+      "ipa": "/ˈrəʊl pleɪ/",
+      "pos": "noun",
+      "definition": "the act of acting out or pretending to be a particular character or role",
+      "example": "Shanahan suggests we think of a chatbot conversation as role-play.",
+      "synonyms": ["acting", "pretending", "make-believe"]
+    },
+    {
+      "word": "make-believe",
+      "ipa": "/ˈmeɪk bɪˌliːv/",
+      "pos": "noun",
+      "definition": "imaginative pretending; something invented rather than real",
+      "example": "The document isn't a real thought experiment; it's a game of make-believe.",
+      "synonyms": ["pretense", "fantasy", "imagination"]
+    },
+    {
+      "word": "corpus",
+      "ipa": "/ˈkɔːpəs/",
+      "pos": "noun",
+      "definition": "a large collection of written or spoken texts used for study or analysis",
+      "example": "This reveals something about the statistical properties of large corpuses of text.",
+      "synonyms": ["collection", "body", "dataset"]
+    },
+    {
+      "word": "disembodied",
+      "ipa": "/ˌdɪsɪmˈbɒdid/",
+      "pos": "adjective",
+      "definition": "separated from or existing without a physical body",
+      "example": "We would never say the historical figures are conscious despite being disembodied.",
+      "synonyms": ["bodiless", "incorporeal"]
+    },
+    {
+      "word": "consolidation",
+      "ipa": "/kənˌsɒlɪˈdeɪʃn/",
+      "pos": "noun",
+      "definition": "the process of combining things into a single, stronger whole",
+      "example": "Critics say LLMs contribute to a consolidation of power that harms democracy.",
+      "synonyms": ["concentration", "merging", "unification"]
+    },
+    {
+      "word": "misinformation",
+      "ipa": "/ˌmɪsɪnfəˈmeɪʃn/",
+      "pos": "noun",
+      "definition": "false or inaccurate information, especially when it spreads widely",
+      "example": "Opponents argue that generative AI helps spread misinformation.",
+      "synonyms": ["disinformation", "falsehood", "untruth"]
+    },
+    {
+      "word": "intellectual property",
+      "ipa": "/ˌɪntəˈlektʃuəl ˈprɒpəti/",
+      "pos": "noun phrase",
+      "definition": "creations of the mind (writing, inventions, designs) protected by law",
+      "example": "Many argue that LLMs are built on the theft of intellectual property.",
+      "synonyms": ["IP", "creative rights"]
+    },
+    {
+      "word": "prey on",
+      "ipa": "/ˈpreɪ ɒn/",
+      "pos": "phrasal verb",
+      "definition": "to exploit or take advantage of someone's weakness or fear",
+      "example": "The companies are preying on people's tendency to see something that isn't there.",
+      "synonyms": ["exploit", "take advantage of", "victimize"]
+    },
+    {
+      "word": "off-load",
+      "ipa": "/ˌɒfˈləʊd/",
+      "pos": "phrasal verb",
+      "definition": "to pass a task, burden, or responsibility on to someone or something else",
+      "example": "People delegate decisions to an LLM in order to off-load accountability.",
+      "synonyms": ["unload", "transfer", "dump"]
+    },
+    {
+      "word": "gloss over",
+      "ipa": "/ˌɡlɒs ˈəʊvər/",
+      "pos": "phrasal verb",
+      "definition": "to deal with a problem quickly so as to hide or downplay its difficulties",
+      "example": "This crucial issue is glossed over entirely by the document.",
+      "synonyms": ["downplay", "skate over", "minimize"]
+    },
+    {
+      "word": "play along",
+      "ipa": "/ˌpleɪ əˈlɒŋ/",
+      "pos": "phrasal verb",
+      "definition": "to pretend to agree or cooperate with someone, often reluctantly",
+      "example": "They are asking us to indulge their fantasies, but we don't have to play along.",
+      "synonyms": ["cooperate", "go along", "humor"]
+    },
+    {
+      "word": "withstand",
+      "ipa": "/wɪðˈstænd/",
+      "pos": "verb",
+      "definition": "to resist or endure something without giving way",
+      "example": "Its abilities would have to withstand rigorous scientific scrutiny.",
+      "synonyms": ["resist", "endure", "weather"]
+    },
+    {
+      "word": "endow",
+      "ipa": "/ɪnˈdaʊ/",
+      "pos": "verb",
+      "definition": "to provide or equip someone or something with a quality or ability",
+      "example": "Hiring philosophers can endow a company with an air of respectability.",
+      "synonyms": ["equip", "furnish", "bestow"]
+    },
+    {
+      "word": "repulsion",
+      "ipa": "/rɪˈpʌlʃn/",
+      "pos": "noun",
+      "definition": "a strong feeling of disgust or aversion",
+      "example": "Having a conscience means feeling moral repulsion at the idea of a certain action.",
+      "synonyms": ["revulsion", "disgust", "aversion"]
+    },
+    {
+      "word": "magnitude",
+      "ipa": "/ˈmæɡnɪtjuːd/",
+      "pos": "noun",
+      "definition": "the great size, extent, or importance of something",
+      "example": "To appreciate the titanic magnitude of this error, we must see how LLMs work.",
+      "synonyms": ["scale", "extent", "size"]
+    },
+    {
+      "word": "hypothetical",
+      "ipa": "/ˌhaɪpəˈθetɪkl/",
+      "pos": "adjective",
+      "definition": "based on a possible or imagined situation rather than a real one",
+      "example": "The development of artificial consciousness is, right now, entirely hypothetical.",
+      "synonyms": ["theoretical", "supposed", "imagined"]
     }
   ]
 }

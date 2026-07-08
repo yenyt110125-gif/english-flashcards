@@ -13,10 +13,15 @@
 
 ## 產卡步驟
 
-1. 讀使用者貼的文章，挑出**值得學的單字**：
+1. 讀使用者貼的文章，挑出**值得學的字詞**：
    - 略過極簡單的字（the, is, good…）與純專有名詞。
-   - 以中高階、對學習者有價值的字為主。**每篇約 15–25 個**（可依文章長度調整）。
-   - 儘量選文章裡實際出現的字；例句盡量取材／改寫自原文語境。
+   - **不要硬性限制數量、寧多勿漏**。涵蓋所有值得學的字詞即可（長文可 40+ 張）。
+   - **使用者是文化（人文）＋科技背景**，請特別留意並優先納入：
+     - 文化／人文常用詞（如 anthropomorphism, simulacrum, make-believe, consciousness）
+     - 科技／時事常用詞（如 hype, deepfake, misinformation, intellectual property）
+     - **慣用語、片語動詞、搭配詞**（如 prey on, gloss over, play along, off-load, an air of …）
+       —— 不要只挑單一難字，這類「常用但學習者常卡住」的表達要當成卡片收進來。
+   - 儘量選文章裡實際出現的字詞；例句盡量取材／改寫自原文語境。
 2. 每個字產生一張卡，欄位如下（**全英文**，不要中文）：
    ```json
    {
@@ -28,8 +33,9 @@
      "synonyms": ["tough", "hardy", "adaptable"]
    }
    ```
-   - `word`：小寫原形（除非本身是專有名詞）。app 以小寫 `word` 當進度 key，
-     所以同一個字在不同文章會共用學習進度、認得後自動不再出現。
+   - `word`：小寫原形（除非本身是專有名詞）。**也可以是片語／慣用語**
+     （如 `"prey on"`、`"intellectual property"`），`pos` 標成 `phrasal verb` / `noun phrase` / `idiom`。
+     app 以小寫 `word` 當進度 key，所以同一個字在不同文章會共用學習進度、認得後自動不再出現。
    - `ipa`：IPA 音標，前後加斜線。
    - `pos`：詞性（noun / verb / adjective / adverb…）。
    - `definition`：簡明英英解釋，用學習者能懂的字。
