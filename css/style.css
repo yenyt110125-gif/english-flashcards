@@ -216,6 +216,7 @@ html, body {
 }
 
 .definition { font-size: clamp(18px, 5vw, 22px); line-height: 1.5; font-weight: 600; }
+.definition-zh { text-align: center; width: 100%; color: #64748b; font-size: clamp(15px, 4vw, 18px); margin-top: -8px; }
 .synonyms { color: #64748b; font-size: 15px; }
 
 /* swipe hint badges */

@@ -22,13 +22,14 @@
      - **慣用語、片語動詞、搭配詞**（如 prey on, gloss over, play along, off-load, an air of …）
        —— 不要只挑單一難字，這類「常用但學習者常卡住」的表達要當成卡片收進來。
    - 儘量選文章裡實際出現的字詞；例句盡量取材／改寫自原文語境。
-2. 每個字產生一張卡，欄位如下（**全英文**，不要中文）：
+2. 每個字產生一張卡，欄位如下（英文為主，另外加一個 `zh` 提供繁體中文對照）：
    ```json
    {
      "word": "resilient",
      "ipa": "/rɪˈzɪliənt/",
      "pos": "adjective",
      "definition": "able to recover quickly from difficulty; tough and flexible",
+     "zh": "有韌性的；能迅速從困境中恢復的",
      "sourceSentence": "Coral reefs are surprisingly resilient and can regrow after damage.",
      "examples": [
        "After the layoffs, the team proved remarkably resilient and bounced back within months.",
@@ -43,6 +44,7 @@
    - `ipa`：IPA 音標，前後加斜線。
    - `pos`：詞性（noun / verb / adjective / adverb…）。
    - `definition`：簡明英英解釋，用學習者能懂的字。
+   - `zh`：簡短的繁體中文翻譯／解釋（一行，幾個詞或一句話即可，顯示在英文解釋下方）。
    - `sourceSentence`：**文章原文裡實際包含這個字的那一句，逐字照抄（verbatim）**。
      若該字在原文以變化形出現（如 preying／glossed over），照抄原文那句即可。
    - `examples`：**額外自己寫的 2 個例句**（自然、貼近該字用法，不要和原文句重複）。陣列，長度 2。

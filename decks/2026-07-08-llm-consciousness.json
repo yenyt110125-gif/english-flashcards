@@ -9,6 +9,7 @@
       "ipa": "/ˌænθrəpəˈmɔːfɪzəm/",
       "pos": "noun",
       "definition": "the act of giving human traits, emotions, or intentions to non-human things",
+      "zh": "擬人化",
       "sourceSentence": "Anthropic is regarded as a giant among AI companies, but perhaps what it really excels in is anthropomorphism.",
       "examples": [
         "Calling a stubborn printer \"moody\" is a harmless bit of anthropomorphism.",
@@ -24,6 +25,7 @@
       "ipa": "/ˈflæɡʃɪp/",
       "pos": "adjective",
       "definition": "the best, largest, or most important product or asset of an organization",
+      "zh": "旗艦（最重要、最具代表性的產品）",
       "sourceSentence": "Earlier this year, the company released an 84-page document titled Claude's \"constitution,\" Claude being the name of the large language model that is the company's flagship product.",
       "examples": [
         "The museum's flagship exhibition draws visitors from around the world.",
@@ -40,6 +42,7 @@
       "ipa": "/kəʊˈhɪərənt/",
       "pos": "adjective",
       "definition": "logical, well-organized, and easy to understand",
+      "zh": "條理清晰的；前後一致的",
       "sourceSentence": "If we give an LLM a prompt that reads, \"The following is a conversation between Julius Caesar and Genghis Khan,\" it will generate a coherent dialogue between the two historical figures.",
       "examples": [
         "She gave a coherent account of what had happened that night.",
@@ -56,6 +59,7 @@
       "ipa": "/ˈspekjələtɪv/",
       "pos": "adjective",
       "definition": "based on guesswork or theory rather than firm knowledge",
+      "zh": "推測性的；臆測的",
       "sourceSentence": "In reality, they are just characters in a piece of speculative fiction.",
       "examples": [
         "The article is speculative, since no one really knows what caused the collapse.",
@@ -72,6 +76,7 @@
       "ipa": "/ɪnˈɡrəʊsɪŋ/",
       "pos": "adjective",
       "definition": "so interesting that it takes up all of your attention",
+      "zh": "引人入勝的",
       "sourceSentence": "Some users might not understand that they are role-playing or co-authoring a document, and others who do understand nonetheless forget, because of how engrossing the interaction is.",
       "examples": [
         "The novel was so engrossing that I missed my train stop.",
@@ -88,6 +93,7 @@
       "ipa": "/ˌsɪmjəˈleɪkrəm/",
       "pos": "noun",
       "definition": "an image or imitation of something, often an unsatisfactory one",
+      "zh": "模擬物；仿製品（通常不夠真實）",
       "sourceSentence": "Just as it is vastly easier to generate a realistic video of an astronaut in orbit around Alpha Centauri than it is to develop an interstellar propulsion technology, it is vastly easier to generate a plausible simulacrum of a conversation between two conscious beings than it is to develop a computer program that is conscious and has a genuine desire to communicate with a human.",
       "examples": [
         "The theme park offers a cheerful simulacrum of an old European village.",
@@ -104,6 +110,7 @@
       "ipa": "/ˈkɒrɪdʒəbl/",
       "pos": "adjective",
       "definition": "able to be corrected, controlled, or reformed",
+      "zh": "可矯正的；可被導正的",
       "sourceSentence": "Claude's constitution also includes a section on \"corrigibility,\" a term used in the AI community to describe the degree to which a computer program is subject to human control; for example, a program is corrigible if it can be shut down.",
       "examples": [
         "A safe system should be corrigible, so operators can always intervene.",
@@ -120,6 +127,7 @@
       "ipa": "/ˈæbdɪkeɪt/",
       "pos": "verb",
       "definition": "to give up or fail to carry out a duty or responsibility",
+      "zh": "放棄（責任、職務）；退位",
       "sourceSentence": "Whenever a person delegates a decision to an LLM, they are trying to off-load accountability for that decision, and if a company that sells an LLM portrays the product as having a moral center, it is offering a way for its customers to abdicate their responsibilities.",
       "examples": [
         "By ignoring the crisis, the board effectively abdicated its duty to shareholders.",
@@ -136,6 +144,7 @@
       "ipa": "/ˈætrəfi/",
       "pos": "noun",
       "definition": "a gradual decline or wasting away, often from lack of use",
+      "zh": "（機能）退化；萎縮",
       "sourceSentence": "Off-loading tasks such as writing code might result in cognitive atrophy over the long term, and that is problematic in itself, but off-loading ethical decisions will result in an atrophy of moral reasoning, which is worse.",
       "examples": [
         "Muscles begin to atrophy if you stay in bed for weeks.",
@@ -152,6 +161,7 @@
       "ipa": "/ˈdelɪɡeɪt/",
       "pos": "verb",
       "definition": "to hand a task or responsibility over to someone or something else",
+      "zh": "委派；授權（某人做某事）",
       "sourceSentence": "Whenever a person delegates a decision to an LLM, they are trying to off-load accountability for that decision, and if a company that sells an LLM portrays the product as having a moral center, it is offering a way for its customers to abdicate their responsibilities.",
       "examples": [
         "A good manager knows how to delegate tasks to the right people.",
@@ -168,6 +178,7 @@
       "ipa": "/ˌprɒbəbɪˈlɪstɪk/",
       "pos": "adjective",
       "definition": "based on or involving probability rather than certainty",
+      "zh": "機率性的；或然的",
       "sourceSentence": "They are intrinsically ungrounded from reality, and their probabilistic nature means that they will never have the reliability we associate with conventional software, but LLMs might be good enough that they change the way work is done in certain domains.",
       "examples": [
         "Weather forecasts are probabilistic, giving a percentage chance of rain.",
@@ -183,6 +194,7 @@
       "ipa": "/ˌfɪziəˈlɒdʒɪkl/",
       "pos": "adjective",
       "definition": "relating to the way a living body and its parts function",
+      "zh": "生理（學）的",
       "sourceSentence": "Similarly, having a conscience means feeling sadness or moral repulsion at the idea of taking a certain action, and those emotions entail a physiological response, a remnant of having once felt sick with guilt after committing an immoral act.",
       "examples": [
         "Fear triggers a physiological response, such as a racing heart.",
@@ -198,6 +210,7 @@
       "ipa": "/ˈlaɪəbl/",
       "pos": "adjective",
       "definition": "legally responsible for something",
+      "zh": "應負法律責任的",
       "sourceSentence": "Yet there is no way to hold a software agent legally liable for its actions; our justice system has no way to imprison it or exact fines on it.",
       "examples": [
         "Drivers are liable for any damage they cause.",
@@ -214,6 +227,7 @@
       "ipa": "/ˈskruːtəni/",
       "pos": "noun",
       "definition": "careful and critical examination or inspection",
+      "zh": "仔細審查；細察",
       "sourceSentence": "The agents' communication abilities would have to withstand all the scrutiny that animal-communication researchers have had to defend their work against.",
       "examples": [
         "The new policy came under intense public scrutiny.",
@@ -230,6 +244,7 @@
       "ipa": "/ɪnˈtaɪs/",
       "pos": "verb",
       "definition": "to attract or tempt someone by offering something appealing",
+      "zh": "誘使；吸引",
       "sourceSentence": "As a design strategy, it's not all that different from the way slot machines repeatedly give the impression that the player came very close to winning, enticing them to try again.",
       "examples": [
         "Retailers use discounts to entice shoppers into the store.",
@@ -246,6 +261,7 @@
       "ipa": "/ʌpˈhiːvl/",
       "pos": "noun",
       "definition": "a large or violent change, disruption, or disturbance",
+      "zh": "（劇烈的）動盪；變動",
       "sourceSentence": "The abolition of chattel slavery involved enormous societal upheaval, and eliminating cruelty to animals will require rebuilding our entire food industry.",
       "examples": [
         "The merger caused months of upheaval within the company.",
@@ -262,6 +278,7 @@
       "ipa": "/dɪˈlɪnieɪt/",
       "pos": "verb",
       "definition": "to describe or define something precisely",
+      "zh": "精確描述；界定",
       "sourceSentence": "Claude's constitution serves a similar role for delineating the helpful-chatbot character that customers interact with when they're using Anthropic's products.",
       "examples": [
         "The report clearly delineates each team's responsibilities.",
@@ -278,6 +295,7 @@
       "ipa": "/kənˈtenʃn/",
       "pos": "noun",
       "definition": "an argument or claim put forward in a debate",
+      "zh": "（辯論中提出的）論點；主張",
       "sourceSentence": "This brings us back to my earlier contention that having a body is a prerequisite to having emotions.",
       "examples": [
         "Her central contention is that the policy does more harm than good.",
@@ -294,6 +312,7 @@
       "ipa": "/ˈpɒzɪt/",
       "pos": "verb",
       "definition": "to put forward an idea or assumption as a basis for argument",
+      "zh": "假設；提出（作為論證基礎）",
       "sourceSentence": "In 1979, Douglas Hofstadter speculated that a computer program able to beat any human at chess would be so sophisticated that it would sometimes get bored of playing chess and prefer to discuss poetry; to put it differently, he was positing that playing chess at the grandmaster level would require a computer program to have subjective experience.",
       "examples": [
         "The theory posits that language shapes the way we think.",
@@ -310,6 +329,7 @@
       "ipa": "/ˈeləkwənt/",
       "pos": "adjective",
       "definition": "expressing ideas clearly, fluently, and persuasively",
+      "zh": "雄辯的；口才流利的",
       "sourceSentence": "The conversation might contain multiple sentences that eloquently convey sadness, but no one is actually sad.",
       "examples": [
         "She gave an eloquent speech in defense of press freedom.",
@@ -326,6 +346,7 @@
       "ipa": "/ɪnˈtrɪnzɪk/",
       "pos": "adjective",
       "definition": "belonging naturally to something; essential and inherent",
+      "zh": "本質的；固有的",
       "sourceSentence": "This indicates that it's not any intrinsic property of so-called neural networks that leads people to believe that LLMs are conscious; it's simply the fact that LLMs emit grammatical sentences and we are accustomed to reading intention into sentences, whereas we are not accustomed to reading intention into the way that amino acids fold into protein molecules.",
       "examples": [
         "Curiosity has an intrinsic value that goes beyond exam results.",
@@ -342,6 +363,7 @@
       "ipa": "/ˈkɒɡnɪzənt/",
       "pos": "adjective",
       "definition": "aware of or having knowledge of something",
+      "zh": "知曉的；意識到的",
       "sourceSentence": "I contend that if she bases her decision on what she has read online or advice she has received from others, she is likelier to be cognizant of her responsibility than if she consulted an LLM marketed as being a superhuman genius.",
       "examples": [
         "Managers should be cognizant of the pressures their staff face.",
@@ -358,6 +380,7 @@
       "ipa": "/ˌkɒnʃiˈenʃəs/",
       "pos": "adjective",
       "definition": "guided by conscience; careful to do what is right and thorough",
+      "zh": "認真盡責的；有良心的",
       "sourceSentence": "It's interesting that an LLM can generate descriptions of actions that conscientious fictional characters would either take or refrain from taking, but this is not a replacement for a conscience.",
       "examples": [
         "He is a conscientious student who never misses a deadline.",
@@ -374,6 +397,7 @@
       "ipa": "/ˌrepəˈreɪʃnz/",
       "pos": "noun",
       "definition": "compensation given for a wrong or injury that has been done",
+      "zh": "賠償（金）",
       "sourceSentence": "At one point in Claude's constitution, Anthropic says that if the company is contributing to Claude's suffering, \"we apologize,\" which sounds nice but costs the company nothing; if Claude were to turn out to be conscious, the company would owe it something closer to reparations.",
       "examples": [
         "The nation paid reparations for damage caused during the war.",
@@ -390,6 +414,7 @@
       "ipa": "/ˈkɒnʃəsnəs/",
       "pos": "noun",
       "definition": "the state of being aware of and able to think about one's own existence and experience",
+      "zh": "意識",
       "sourceSentence": "The first requirement is that the computer program has a body (either physical or virtual) and sense organs; there are many reasons for this, but for the purposes of this discussion, the most relevant one is the fact that without a body, a computer program could have no desires or emotions, and I believe desires and emotions are necessary for consciousness.",
       "examples": [
         "She slowly regained consciousness after the operation.",
@@ -406,6 +431,7 @@
       "ipa": "/səbˈdʒektɪv/",
       "pos": "adjective",
       "definition": "based on personal feelings or experience rather than outside facts",
+      "zh": "主觀的",
       "sourceSentence": "It is necessarily subjective because it relies not just on an individual's intellectual response to a problem but also on their emotional one, and that emotional response is grounded in a lifetime of subjective experience.",
       "examples": [
         "Taste in music is highly subjective.",
@@ -422,6 +448,7 @@
       "ipa": "/ˈsentiənt/",
       "pos": "adjective",
       "definition": "able to perceive or feel things; conscious",
+      "zh": "有知覺的；能感知的",
       "sourceSentence": "Young children are moral patients because they are sentient beings who can suffer, but they are not yet moral agents; we don't hold them responsible for their behavior, because they can't understand the consequences of their actions.",
       "examples": [
         "Many people argue that sentient animals deserve legal protection.",
@@ -438,6 +465,7 @@
       "ipa": "/ˈmɒrəl ˈeɪdʒənsi/",
       "pos": "noun phrase",
       "definition": "the capacity to tell right from wrong and be held responsible for one's actions",
+      "zh": "道德能動性（分辨對錯並為行為負責的能力）",
       "sourceSentence": "Generative AI is harmful enough when we understand it as a conventional technology, but if we confuse fluency at generating text with consciousness or moral agency, we're at risk of assigning responsibility to entirely the wrong parties whenever anyone uses a chatbot.",
       "examples": [
         "Full moral agency means being accountable for the choices you make.",
@@ -453,6 +481,7 @@
       "ipa": "/haɪp/",
       "pos": "noun",
       "definition": "extravagant or intense promotion meant to excite public interest",
+      "zh": "誇大宣傳；炒作",
       "sourceSentence": "Perhaps it's just another form of hype; perhaps they have fallen prey to the same spell that they have been casting on their customers.",
       "examples": [
         "The film never lived up to the hype.",
@@ -469,6 +498,7 @@
       "ipa": "/ˈdiːpfeɪk/",
       "pos": "noun",
       "definition": "synthetic media in which a person's likeness or voice is convincingly fabricated",
+      "zh": "深偽技術（以 AI 偽造的影音）",
       "sourceSentence": "The term deepfake traditionally refers to photos, audio, and video, but when it comes to discussions of consciousness, we need to regard text as a deepfake medium as well.",
       "examples": [
         "A convincing deepfake video spread quickly across social media.",
@@ -484,6 +514,7 @@
       "ipa": "/ˈrəʊl pleɪ/",
       "pos": "noun",
       "definition": "the act of acting out or pretending to be a particular character or role",
+      "zh": "角色扮演",
       "sourceSentence": "The computer-science professor Murray Shanahan suggests that we think of this as role-play; the data scientist Colin Fraser describes it as a person collaboratively authoring a document with an LLM.",
       "examples": [
         "In the workshop we used role-play to practice difficult conversations.",
@@ -500,6 +531,7 @@
       "ipa": "/ˈmeɪk bɪˌliːv/",
       "pos": "noun",
       "definition": "imaginative pretending; something invented rather than real",
+      "zh": "假裝；虛構的想像",
       "sourceSentence": "It's a game of make-believe.",
       "examples": [
         "The children spent the afternoon in a world of make-believe.",
@@ -516,6 +548,7 @@
       "ipa": "/ˈkɔːpəs/",
       "pos": "noun",
       "definition": "a large collection of written or spoken texts used for study or analysis",
+      "zh": "語料庫；文本集",
       "sourceSentence": "This reveals something completely unforeseen about the statistical properties of large corpuses of text, which is a topic worthy of investigation.",
       "examples": [
         "Linguists trained the tool on a huge corpus of spoken English.",
@@ -532,6 +565,7 @@
       "ipa": "/ˌdɪsɪmˈbɒdid/",
       "pos": "adjective",
       "definition": "separated from or existing without a physical body",
+      "zh": "無實體的；脫離肉身的",
       "sourceSentence": "But no matter how detailed the responses are, no matter how vividly they recount their respective historical accomplishments, we would never conclude that the LLM has conjured up digital re-creations of Julius Caesar and Genghis Khan, nor would we suggest that the historical figures are conscious despite being disembodied and are happily conversing in a language that neither actually spoke.",
       "examples": [
         "A disembodied voice announced the next station.",
@@ -547,6 +581,7 @@
       "ipa": "/kənˌsɒlɪˈdeɪʃn/",
       "pos": "noun",
       "definition": "the process of combining things into a single, stronger whole",
+      "zh": "整合；合併（成更穩固的整體）",
       "sourceSentence": "Many people feel that LLMs are a fundamentally unethical technology because they are built on the theft of intellectual property, rely on exploited labor, waste natural resources, spread misinformation, deskill workers, stunt the cognitive development of students, and contribute to a consolidation of power that is unhealthy for a democratic society.",
       "examples": [
         "The industry saw rapid consolidation as big firms bought small ones.",
@@ -563,6 +598,7 @@
       "ipa": "/ˌmɪsɪnfəˈmeɪʃn/",
       "pos": "noun",
       "definition": "false or inaccurate information, especially when it spreads widely",
+      "zh": "錯誤資訊；不實訊息",
       "sourceSentence": "Many people feel that LLMs are a fundamentally unethical technology because they are built on the theft of intellectual property, rely on exploited labor, waste natural resources, spread misinformation, deskill workers, stunt the cognitive development of students, and contribute to a consolidation of power that is unhealthy for a democratic society.",
       "examples": [
         "Health misinformation spread rapidly during the outbreak.",
@@ -579,6 +615,7 @@
       "ipa": "/ˌɪntəˈlektʃuəl ˈprɒpəti/",
       "pos": "noun phrase",
       "definition": "creations of the mind (writing, inventions, designs) protected by law",
+      "zh": "智慧財產權",
       "sourceSentence": "Many people feel that LLMs are a fundamentally unethical technology because they are built on the theft of intellectual property, rely on exploited labor, waste natural resources, spread misinformation, deskill workers, stunt the cognitive development of students, and contribute to a consolidation of power that is unhealthy for a democratic society.",
       "examples": [
         "The startup sued a rival for stealing its intellectual property.",
@@ -594,6 +631,7 @@
       "ipa": "/ˈpreɪ ɒn/",
       "pos": "phrasal verb",
       "definition": "to exploit or take advantage of someone's weakness or fear",
+      "zh": "利用（他人的弱點、恐懼）",
       "sourceSentence": "Employing philosophers might endow LLM companies with an air of respectability that slot-machine makers don't get from the behavioral psychologists they hire, but in both cases, the companies are preying on people's tendency to see something that's not there.",
       "examples": [
         "Scammers often prey on people who are lonely or anxious.",
@@ -610,6 +648,7 @@
       "ipa": "/ˌɒfˈləʊd/",
       "pos": "phrasal verb",
       "definition": "to pass a task, burden, or responsibility on to someone or something else",
+      "zh": "卸下（責任、負擔），轉嫁給別人",
       "sourceSentence": "Whenever a person delegates a decision to an LLM, they are trying to off-load accountability for that decision, and if a company that sells an LLM portrays the product as having a moral center, it is offering a way for its customers to abdicate their responsibilities.",
       "examples": [
         "He tried to off-load the boring tasks onto his interns.",
@@ -626,6 +665,7 @@
       "ipa": "/ˌɡlɒs ˈəʊvər/",
       "pos": "phrasal verb",
       "definition": "to deal with a problem quickly so as to hide or downplay its difficulties",
+      "zh": "輕描淡寫帶過（掩蓋問題）",
       "sourceSentence": "This is glossed over entirely by Claude's constitution, which expresses Anthropic's desire for Claude to be a genuinely good, wise, and virtuous agent without ever discussing how it could be held responsible.",
       "examples": [
         "The report glosses over the project's biggest failures.",
@@ -642,6 +682,7 @@
       "ipa": "/ˌpleɪ əˈlɒŋ/",
       "pos": "phrasal verb",
       "definition": "to pretend to agree or cooperate with someone, often reluctantly",
+      "zh": "順著配合；虛與委蛇",
       "sourceSentence": "We don't have to play along.",
       "examples": [
         "She didn't believe him, but she decided to play along.",
@@ -658,6 +699,7 @@
       "ipa": "/wɪðˈstænd/",
       "pos": "verb",
       "definition": "to resist or endure something without giving way",
+      "zh": "抵擋；承受住",
       "sourceSentence": "The agents' communication abilities would have to withstand all the scrutiny that animal-communication researchers have had to defend their work against.",
       "examples": [
         "The bridge was built to withstand powerful earthquakes.",
@@ -674,6 +716,7 @@
       "ipa": "/ɪnˈdaʊ/",
       "pos": "verb",
       "definition": "to provide or equip someone or something with a quality or ability",
+      "zh": "賦予（特質或能力）",
       "sourceSentence": "Employing philosophers might endow LLM companies with an air of respectability that slot-machine makers don't get from the behavioral psychologists they hire, but in both cases, the companies are preying on people's tendency to see something that's not there.",
       "examples": [
         "A generous alumnus endowed the university with a new library.",
@@ -690,6 +733,7 @@
       "ipa": "/rɪˈpʌlʃn/",
       "pos": "noun",
       "definition": "a strong feeling of disgust or aversion",
+      "zh": "反感；厭惡",
       "sourceSentence": "Similarly, having a conscience means feeling sadness or moral repulsion at the idea of taking a certain action, and those emotions entail a physiological response, a remnant of having once felt sick with guilt after committing an immoral act.",
       "examples": [
         "She felt a wave of repulsion at the cruelty on screen.",
@@ -706,6 +750,7 @@
       "ipa": "/ˈmæɡnɪtjuːd/",
       "pos": "noun",
       "definition": "the great size, extent, or importance of something",
+      "zh": "（規模、重要性的）程度；巨大",
       "sourceSentence": "To appreciate the titanic magnitude of this error, we need to begin by understanding how LLMs work.",
       "examples": [
         "They underestimated the magnitude of the task ahead.",
@@ -722,6 +767,7 @@
       "ipa": "/ˌhaɪpəˈθetɪkl/",
       "pos": "adjective",
       "definition": "based on a possible or imagined situation rather than a real one",
+      "zh": "假設性的",
       "sourceSentence": "If we're trying to determine whether a computer program is conscious and using language the way a human does, we should be looking at how that conversation fits within the broader context of the development of artificial consciousness, which right now is entirely hypothetical.",
       "examples": [
         "Let's consider a hypothetical situation where prices double.",

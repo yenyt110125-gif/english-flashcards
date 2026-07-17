@@ -65,6 +65,7 @@
             ipa: raw.ipa || existing.ipa,
             pos: raw.pos || existing.pos,
             definition: raw.definition || existing.definition,
+            zh: raw.zh || existing.zh,
             sourceSentence: raw.sourceSentence || existing.sourceSentence,
             examples: raw.examples || existing.examples,
             example: raw.example || existing.example,
@@ -78,6 +79,7 @@
             ipa: raw.ipa || '',
             pos: raw.pos || '',
             definition: raw.definition || '',
+            zh: raw.zh || '',
             sourceSentence: raw.sourceSentence || '',
             examples: raw.examples || null,
             example: raw.example || '',
@@ -140,6 +142,9 @@
 
     // back: definition, original sentence from the article, then example sentences
     var back = ['<div class="definition">' + esc(card.definition) + '</div>'];
+    if (card.zh) {
+      back.push('<div class="definition-zh">' + esc(card.zh) + '</div>');
+    }
     if (card.sourceSentence) {
       back.push('<div class="block"><div class="section-label">From the article</div>' +
         '<div class="sentence orig">' + highlight(card.sourceSentence, card.word) + '</div></div>');
